@@ -144,10 +144,12 @@ body {
 header {
   border: 1px solid red;
   width: 100% auto;
+  background-color: #238ec4;
 }
 h1 {
-  font-size: 1.5rem;
+  font-size: 1.75rem;
 }
+
 nav {
   display: inline-block;
   text-align: center;
@@ -165,4 +167,26 @@ nav a {
   display: inline-block;
   text-align: center;
   justify-content: space-around;
+  /* background-color: #238ec4; */
+}
+
+h2{
+  font-size:1.355rem;
+}
+
+h3{
+  font-size:1.20rem;
+  font-weight: bold;
+  }
+
+  li {
+    margin-left: 10px;
+    list-style-type: square;
+    line-height: 10px;
+ }
+  
+.mid{
+  display:flex;
+  /* justify content: space-around; */
+  padding-left:10px;
 }
